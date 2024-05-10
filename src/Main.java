@@ -65,7 +65,7 @@ public class Main {
         ukol8();
         ukol9();
     }
-};
+}
 
 
 
