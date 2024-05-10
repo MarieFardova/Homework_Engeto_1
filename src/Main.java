@@ -5,22 +5,22 @@ public class Main {
 
     public static void ukol1() {
        System.out.println("Hello world!");
-   };
+   }
 
     public static void ukol2() {
         String uzivatel = "Karel";
        System.out.println(uzivatel);
-    };
+    }
 
     public static void ukol3() {
         int pocetLekci = 10;
         System.out.println(pocetLekci);
-    };
+    }
 
     public static void ukol4() {
         double cena = 10.0;
         System.out.println(cena);
-    };
+    }
 
     public static void ukol5() {
         BigDecimal cena = BigDecimal.valueOf(0);
