@@ -1,4 +1,7 @@
+
+
 import java.math.BigDecimal;
+
 
 
 public class Main {
@@ -53,8 +56,7 @@ public class Main {
         System.out.println("Metoda *skoro* bez chybičky!");
     }
 
-    public static void main(String[] args) {
-
+    public static <BioCarrot> void main(String[] args) {
         ukol1();
         ukol2();
         ukol3();
@@ -64,21 +66,10 @@ public class Main {
         ukol7();
         ukol8();
         ukol9();
+
     }
+    
 }
 
 
 
-/*V metodě main svého projektu připrav proměnné pro uložení informací o prodejcích kvalitní biomrkve. Pokud to umíš, můžeš založit novou třídu a údaje o prodejcích zapsat jako atributy této třídy.
-
-O každém prodejci potřebujeme evidovat tyto údaje:
-
-Jméno a příjmení prodejce
-Datum narození prodejce.
-Počet dosud sjednaných smluv.
-Celkové množství prodané mrkve v tunách.
-Název města, kde prodejce sídlí.
-Registrační značka vozidla („SPZ“).
-Spotřeba firemního vozidla v litrech na 100 km.
-IP adresa verze 4 firemního počítače.
-Více o formátu IP adresy verze 4 viz například IP adresa verze 4*/
