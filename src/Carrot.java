@@ -11,8 +11,8 @@ public class Carrot {
         int carrotSoldTotal = 100;
         String producerTown = "Hluboká nad Vltavou";
         String registrationPlate = "9C2 1713";
-        double FuelComsumption = 5.4;
-        String IPAdress = "192.168.255.255";
+        double fuelConsumption = 5.4;
+        String ipPAddress = "192.168.255.255";
 
         System.out.println(
                 producerName + " " + producerSurname + " prodala průměrně " + (double) carrotSoldTotal /contracts + " tun mrkve na 1 smlouvu");
